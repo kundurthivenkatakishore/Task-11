@@ -1,0 +1,347 @@
+1)Fix the bugs in below snippet
+
+code:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Document guvi</title>
+    </head>
+    <body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <div>
+            Guvi Geek Network
+    </div>
+    </body>
+    </html>
+    
+2)Try the below one 
+  <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+code:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Document guvi</title>
+    </head>
+    <body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+3)Design a contact us form with all fields as required.
+
+code:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text], select, textarea {
+        width: 20%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+        input[type=tel]{
+            width: 250px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+        }
+        input[typr=submit]{
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    </head>
+    <body>
+    <h1>Contact Us</h1>
+    <h3>Address</h3>
+    <Address>2nd Floor,Nagarjuna Nagar,Ameerpet,Beside Image Hosptal,PIN:500073,Hyderabad,Telangana</Address>
+    <h3>Chat With Us</h3>
+    Name:
+    <input type="text" placeholder="Enter your name"><br>
+    Mobile:
+    <input type="tel" placeholder="Enter your number"><br>
+    <input type="button" value="Submit">
+    <h3>Call us</h3>
+    <p>080-25776637</p>
+    </body>
+    </html>
+    
+4)Use certain HTML elements to display the following in a HTML page.
+
+code:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+    <ul>
+        <li>Programming Language</li>
+            <ul style="list-style-type:circle;">  
+                <li>Javascript</li>
+                    <ol type="a">
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue.js</Vue></li>
+                    </ol>
+                <li>Python</li>
+                    <ol type="a">
+                        <li>Dijango Framework</li>
+                        <li>Flask Framework</li>
+                    </ol>
+                <li>Java</li>
+                    <ol type="a">
+                        <li>Spring</li>
+                        <li>Maven</li>
+                        <li>Hibernate</li>
+                    </ol>
+            </ul>
+        <li>Database</li>
+            <ul style="list-style-type:circle;">
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Cansandra</li>
+            </ul>
+
+    </ul>
+    </body>
+    </html>
+
+5)Create an element that helps you to open the https://google.com in separate new tab.
+
+code:
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      </head>
+      <body>
+          <a href="https://google.com" target="_blank">Google</a>
+      </body>
+      </html>
+      
+6)In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+code:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+    <form>
+        <p>Employee Type</p>
+        <div>
+          <input type="radio" id="choice1"
+           name="contact" value="salaried">
+          <label for="Choice1">Salaried</label>
+      
+          <input type="radio" id="Choice2"
+           name="contact" value="Own Business">
+          <label for="Choice2">Own Business</label>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+   </body>
+   </html>
+   
+7)Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+code:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+    <form align="center">
+        <table border="0" align="center">
+        <tr><td bgcolor="red">
+        <font color="white" size="4"><b>Yes! I want to subscribe to <i>Mag-O-Zine</i></b></font>
+        </td></tr>
+        </table>
+        First Name: <input type="text" name="fname" size="12" />
+        Last Name: <input type="text" name="lname" size="20" />
+        <br />
+        Address: <input type="text" name="addr" size="40" />
+        <br />
+        City: <input type="text" name="city" size="12" />
+        State: <input type="text" name="state" size="4" value="CA" />
+        Zip: <input type="text" name="zip" size="10" /> 
+        </p>
+        <p>
+        <b>Subscribe for:</b>
+        <b><input type="radio" name="years" value="1" /> 1 year ($19.95)</b>
+        <b><input type="radio" name="years" value="2" checked="checked" /> 2 years ($35.00)</b>
+        </p>
+        <table border="0" align="center">
+        <td>
+        <b>Send me more information about:</b> <br />
+        <b><input type="checkbox" name="check1" value="Computer-Zine" checked="checked" /> Computer-Zine</b> <br />
+        <b><input type="checkbox" name="check2" value="Fisher-Zine" /> Fisher-Zine</b> <br />
+        <b><input type="checkbox" name="check3" value="Cat-O-Zine" checked="checked" /> Cat-O-Zine</b>
+        </p>
+        </td>
+    </body>
+    </html>
+    
+8)Use the table tag to design given image Click here.
+
+code:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    </style>
+    </head>
+    <body>
+    <h2 align="center">Health Chart</h2>
+    <table cellspacing="20px" cellpadding="20px" align="center" style="height: 150px;">
+        <tr>
+            <td rowspan="2">State of Health</th>
+            <td colspan="2" align="center">Fasting Value</td>
+            <td align="center">After Eating</th>
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 Hours After Eating</td>
+        </tr>
+        <tr>
+            <td>Helathy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+    </body>
+    </html>
+    
+10)In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome"
+
+code:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+        <mark>HTML & CSS is awesome</mark>
+    </body>
+    </html>
+
+11)Create an HTML page, which should contain all types of input elements.
+
+code:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+    <h2>Textbox</h2>
+    <input type="text" name="text">
+    <h2>Password Types</h2>
+    <input type="text" name="text">
+    <h2>Email Types</h2>
+    <input type="email" name="email">
+    <h2>Number Types</h2>
+    <input type="number" name="number">
+    <h2>Range Types</h2>
+    <input type="range" name="range">
+    <h2>Search Types</h2>
+    <input type="search" name="search">
+    <h2>Radio Types</h2>
+    <form>
+        <input type="radio" name="radio" id="demo">
+        <label for="demo">Male</label>
+        <input type="radio" name="rado" id="demo1">
+        <label for="demo">Female</label>
+    </form>
+    <h2>CheckBox</h2>
+    <input type="checkbox" name="checkbox" id="check1">
+    <label for="check1">B.Tech</label>
+    <input type="checkbox" name="xheckbox" id="check2">
+    <label for="chech2">M.Tech</label>
+    <h2>Date Types</h2>
+    <input type="date" name="date" id="date">
+    <h2>Submit Button</h2>
+    <input type="button" name="submit" value="Submit"> 
+    </body>
+    </html>
